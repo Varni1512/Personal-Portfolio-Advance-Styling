@@ -128,11 +128,11 @@ const Certificates = () => {
           {certificatesData.map((certificate) => (
             <motion.div 
               key={certificate.id}
-              className="card group"
+              className="card group border hover:border-primary cursor-pointer"
               variants={itemVariants}
               transition={{ duration: 0.5 }}
             >
-              <div className="flex items-center mb-4">
+              <div className="flex items-center mb-4 ">
                 <div className="p-3 rounded-lg bg-primary/10 text-primary mr-3">
                   <FiAward size={24} />
                 </div>
