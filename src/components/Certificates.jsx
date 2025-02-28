@@ -128,7 +128,7 @@ const Certificates = () => {
           {certificatesData.map((certificate) => (
             <motion.div 
               key={certificate.id}
-              className="card group border hover:border-primary cursor-pointer"
+              className="card group  bg-white dark:bg-dark-dark cursor-pointer"
               variants={itemVariants}
               transition={{ duration: 0.5 }}
             >
