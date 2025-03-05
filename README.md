@@ -34,16 +34,8 @@ npm run dev
 http://localhost:3000/
 ```
 
-## 🛠 Future Enhancements
-📌 Dark mode support.
-
-📌 Blog section for sharing insights.
-
-📌 Animations for smoother UI experience.
 
 ## 📞 Contact
-💼 Portfolio: varnikumarportfolio.vercel.app
-
-📧 Email: varnikumarp@gmail.com
-
-📌 GitHub: github.com/Varni1512
+💼 **Portfolio**: varnikumarportfolio.vercel.app
+📧 **Email**: varnikumarp@gmail.com
+📌 **GitHub**: github.com/Varni1512
