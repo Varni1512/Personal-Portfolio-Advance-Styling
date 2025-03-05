@@ -36,7 +36,9 @@ http://localhost:3000/
 
 ## 🛠 Future Enhancements
 📌 Dark mode support.
+
 📌 Blog section for sharing insights.
+
 📌 Animations for smoother UI experience.
 
 ## 📞 Contact
