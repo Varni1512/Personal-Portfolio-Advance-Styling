@@ -37,5 +37,7 @@ http://localhost:3000/
 
 ## 📞 Contact
 💼 **Portfolio**: varnikumarportfolio.vercel.app
+
 📧 **Email**: varnikumarp@gmail.com
+
 📌 **GitHub**: github.com/Varni1512
