@@ -6,8 +6,7 @@
 Welcome to my personal portfolio! This website showcases my **projects, skills, achievements, and experience** in software development, full-stack engineering, and blockchain.
 
 ## 🛠 Tech Stack  
-- **Frontend:** React.js, Next.js, Tailwind CSS  
-- **Backend:** Node.js, Express.js  
+- **Frontend:** React.js, Tailwind CSS 
 - **Database:** MongoDB  
 - **Other:** Git, GitHub, Vercel, Framer Motion  
 
@@ -37,10 +36,14 @@ http://localhost:3000/
 
 ## 🛠 Future Enhancements
 📌 Dark mode support
+
 📌 Blog section for sharing insights
+
 📌 Animations for smoother UI experience
 
 ## 📞 Contact
 💼 Portfolio: varnikumarportfolio.vercel.app
+
 📧 Email: varnikumarp@gmail.com
+
 📌 GitHub: github.com/Varni1512
