@@ -114,7 +114,7 @@ const Contact = () => {
             <div className="mt-10">
               <h4 className="font-semibold mb-4">Connect with me</h4>
               <div className="flex space-x-4">
-                <a href="www.linkedin.com/in/varnikumarpatel" className="social-icon">
+                <a href="https://www.linkedin.com/in/varnikumarpatel" className="social-icon">
                   <FiLinkedin size={20} />
                 </a>
                 <a href="https://github.com/Varni1512" className="social-icon">
