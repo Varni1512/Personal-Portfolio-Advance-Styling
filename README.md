@@ -17,7 +17,13 @@ Welcome to my personal portfolio! This website showcases my **projects, skills, 
 ✔️ **Contact Section** – Easy way to reach out for collaborations or opportunities.  
  
 ## 🚀 Getting Started  
-Want to set up the portfolio locally? Follow these steps:  
+Want to set up the portfolio locally? Follow these steps: 
+
+### Clone the repository:
+```
+git clone https://github.com/yourusername/portfolio.git  
+cd portfolio
+```
 
 ### Install dependencies:
 ```
