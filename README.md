@@ -1,6 +1,6 @@
 # 🌐 Varnikumar's Portfolio
 
-🚀 **Live Demo:** [varnikumarportfolio.vercel.app](https://varnikumarportfolio.vercel.app/)
+🚀 [Live Demo](https://varnikumarportfolio.vercel.app/)
 
 ## 📌 About  
 Welcome to my personal portfolio! This website showcases my **projects, skills, achievements, and experience** in software development, full-stack engineering, and blockchain.
@@ -35,11 +35,9 @@ http://localhost:3000/
 ```
 
 ## 🛠 Future Enhancements
-📌 Dark mode support
-
-📌 Blog section for sharing insights
-
-📌 Animations for smoother UI experience
+📌 Dark mode support.
+📌 Blog section for sharing insights.
+📌 Animations for smoother UI experience.
 
 ## 📞 Contact
 💼 Portfolio: varnikumarportfolio.vercel.app
