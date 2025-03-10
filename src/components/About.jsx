@@ -52,7 +52,7 @@ const About = () => {
           >
             <h3 className="text-2xl font-bold mb-4">Who am I?</h3>
             <p className="text-gray-700 dark:text-gray-300 mb-6">
-              I'm a passionate Frontend Developer with 2 years of experience creating beautiful, 
+              I'm a passionate Web Developer with 2 years of experience creating beautiful, 
               responsive, and user-friendly websites. I specialize in React.js and modern web technologies, 
               focusing on building exceptional user experiences.
             </p>
