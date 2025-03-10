@@ -3,7 +3,7 @@
 🚀 [Live Demo](https://varnikumarportfolio.vercel.app/)
 
 ## 📌 About  
-Welcome to my personal portfolio! This website showcases my **projects, skills, achievements, and experience** in software development, full-stack engineering, and blockchain.
+Welcome to my personal portfolio! This website showcases my **projects, skills, achievements, and experience** in software development, full-stack engineering.
 
 ## 🛠 Tech Stack  
 - **Frontend:** React.js, Tailwind CSS 
