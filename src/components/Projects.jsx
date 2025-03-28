@@ -61,7 +61,7 @@ const projects = [
     image: "https://entrevue.fr/wp-content/uploads/2025/01/netflix-decouvrez-les-nouveautes-de-la-semaine-y-compris-la-tant-attendue-suite-dun-immense-succes-750x410-1.jpg",
     description: "This is a Netflix clone built using React.js. The project showcases movie data fetched from the TMDb (The Movie Database) API. For user authentication and security, Firebase Authentication is used. Additionally, React Toastify is implemented for elegant popup notifications.",
     technologies: ["React", "Firebase", "React Toastify", "Node.js", "Express"],
-    liveLink: "https://quiet-cheesecake-5d029a.netlify.app/",
+    liveLink: "https://netflix-clone-tau-five-44.vercel.app/",
     githubLink: "https://github.com/Varni1512/Netflix-Clone",
   },
   {
