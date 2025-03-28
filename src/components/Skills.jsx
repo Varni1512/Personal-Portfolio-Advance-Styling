@@ -55,6 +55,17 @@ const skillCategories = [
     ]
   },
   {
+    title: "Machine Learning",
+    icon: <FiCpu size={24} />,
+    skills: [
+      { name: "Pandas", level: 75 },
+      { name: "NumPy", level: 70 },
+      { name: "Matplotlib", level: 65 },
+      { name: "Scikit-learn", level: 70 },
+      { name: "TensorFlow", level: 60 },
+    ]
+  },
+  {
     title: "Tools",
     icon: <FiTool size={24} />,
     skills: [
@@ -79,7 +90,6 @@ const skillCategories = [
       { name: "Vercel", level: 90 },
       { name: "Firebase", level: 70 },
       { name: "GitHub Pages", level: 75 },
-      { name: "AWS (Amazon Web Services)", level: 50 },
     ]
   }
 ]
