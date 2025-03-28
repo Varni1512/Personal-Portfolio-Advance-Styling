@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { 
-  FiCode, FiLayout, FiDatabase, FiServer, 
+  FiCode, FiLayout, FiDatabase, FiServer, FiCpu,
   FiTool, FiGitBranch, FiPackage, FiMonitor, FiUploadCloud 
 } from 'react-icons/fi'
 
