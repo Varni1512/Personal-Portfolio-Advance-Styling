@@ -146,7 +146,7 @@ const projects = [
   },
 ]
 
-const categories = ["All", "Web Development", "Cloned Website", "API Integration", "Chrome Extension","Algorithm-Based Project","Featured Project"]
+const categories = ["All", "Web Development", "Cloned Website", "API Integration", "Chrome Extension", "Algorithm-Based Project", "Featured Project"]
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All")
@@ -214,65 +214,69 @@ const Projects = () => {
           initial="hidden"
           animate={inView ? "visible" : "hidden"}
         >
-          {filteredProjects.map((project) => (
-            <motion.div 
-              key={project.id}
-              className="project-card group"
-              variants={itemVariants}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="relative overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title} 
-                  className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
-                />
-                <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
-                  <div className="p-4 w-full">
-                    <div className="flex justify-end space-x-2">
-                      <a 
-                        href={project.liveLink} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-primary transition-colors duration-300"
-                      >
-                        <FiExternalLink className="text-white" size={18} />
-                      </a>
-                      <a 
-                        href={project.githubLink} 
-                        target="_blank" 
-                        rel="noopener noreferrer"
-                        className="p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-primary transition-colors duration-300"
-                      >
-                        <FiGithub className="text-white" size={18} />
-                      </a>
+          {filteredProjects.map((project) => {
+            const isNetflixClone = project.title === "Netflix Clone";
+            
+            return (
+              <motion.div 
+                key={project.id}
+                className="project-card group"
+                variants={itemVariants}
+                transition={{ duration: 0.5 }}
+              >
+                <div className="relative overflow-hidden">
+                  <img 
+                    src={project.image} 
+                    alt={project.title} 
+                    className="w-full h-56 object-cover transition-transform duration-500 group-hover:scale-110"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end">
+                    <div className="p-4 w-full">
+                      <div className="flex justify-end space-x-2">
+                        <a 
+                          href={project.liveLink} 
+                          // Only Netflix Clone opens in new tab
+                          {...(isNetflixClone ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                          className="p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-primary transition-colors duration-300"
+                        >
+                          <FiExternalLink className="text-white" size={18} />
+                        </a>
+                        <a 
+                          href={project.githubLink} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="p-2 bg-white/20 backdrop-blur-sm rounded-full hover:bg-primary transition-colors duration-300"
+                        >
+                          <FiGithub className="text-white" size={18} />
+                        </a>
+                      </div>
                     </div>
                   </div>
                 </div>
-              </div>
-              
-              <div className="p-6">
-                <div className="flex items-center mb-2">
-                  <FiCode className="text-primary mr-2" />
-                  <span className="text-sm font-medium text-primary">{project.category}</span>
+                
+                <div className="p-6">
+                  <div className="flex items-center mb-2">
+                    <FiCode className="text-primary mr-2" />
+                    <span className="text-sm font-medium text-primary">{project.category}</span>
+                  </div>
+                  <h3 className="text-xl font-bold mb-3">{project.title}</h3>
+                  <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
+                    {project.description}
+                  </p>
+                  <div className="flex flex-wrap gap-2">
+                    {project.technologies.map((tech, index) => (
+                      <span 
+                        key={index} 
+                        className="px-3 py-1 bg-light-dark dark:bg-dark-dark text-dark-light dark:text-light-light text-xs rounded-full"
+                      >
+                        {tech}
+                      </span>
+                    ))}
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3">{project.title}</h3>
-                <p className="text-gray-600 dark:text-gray-300 mb-4 line-clamp-3">
-                  {project.description}
-                </p>
-                <div className="flex flex-wrap gap-2">
-                  {project.technologies.map((tech, index) => (
-                    <span 
-                      key={index} 
-                      className="px-3 py-1 bg-light-dark dark:bg-dark-dark text-dark-light dark:text-light-light text-xs rounded-full"
-                    >
-                      {tech}
-                    </span>
-                  ))}
-                </div>
-              </div>
-            </motion.div>
-          ))}
+              </motion.div>
+            );
+          })}
         </motion.div>
       </div>
     </section>
