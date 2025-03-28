@@ -54,7 +54,8 @@ const About = () => {
             <p className="text-gray-700 dark:text-gray-300 mb-6">
               I'm a passionate Web Developer with 2 years of experience creating beautiful, 
               responsive, and user-friendly websites. I specialize in React.js and modern web technologies, 
-              focusing on building exceptional user experiences.
+              focusing on building exceptional user experiences.I'm also starting my journey in Machine Learning, 
+              exploring its applications to enhance my development skills.
             </p>
             <p className="text-gray-700 dark:text-gray-300 mb-8">
               My approach combines technical expertise with creative problem-solving. I'm dedicated to 
