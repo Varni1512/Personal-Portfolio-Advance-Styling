@@ -38,7 +38,7 @@ const projects = [
     id: 4,
     title: "AI-Powered Text-to-Image Generator",
     category: "Web Development",
-    image: "https://mm-test.minitool.com/images/uploads/2023/06/ai-image-generator-thumbnail.jpg",
+    image: "https://www.weetechsolution.com/wp-content/uploads/2023/01/imgpsh_fullsize_anim-4.jpg",
     description: "Imagify lets you turn text into beautiful images in seconds. Simply enter a description, and our AI-powered tool will generate stunning visuals. With a smooth UI, seamless animations, and real-time notifications, creativity is at your fingertips!",
     technologies: ["React", "Node.js", "MongoDB", "Clipdrop API"],
     liveLink: "#",
