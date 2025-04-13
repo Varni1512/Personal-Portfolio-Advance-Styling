@@ -2,7 +2,7 @@ import { motion } from 'framer-motion'
 import { useInView } from 'react-intersection-observer'
 import { 
   FiCode, FiLayout, FiDatabase, FiServer, FiCpu,
-  FiTool, FiGitBranch, FiPackage, FiMonitor, FiUploadCloud 
+  FiTool, FiGitBranch, FiPackage, FiMonitor, FiUploadCloud, FiBarChart2
 } from 'react-icons/fi'
 
 const skillCategories = [
@@ -55,12 +55,21 @@ const skillCategories = [
     ]
   },
   {
+    title: "Data Analyst",
+    icon: <FiBarChart2 size={24} />,
+    skills: [
+      { name: "Microsoft Excel", level: 80 },
+      { name: "Microsoft Power BI", level: 70 },
+    ]
+  },
+  {
     title: "Machine Learning",
     icon: <FiCpu size={24} />,
     skills: [
       { name: "Pandas", level: 75 },
       { name: "NumPy", level: 70 },
       { name: "Matplotlib", level: 65 },
+      { name: "Seaborn", level: 65 },
       { name: "Scikit-learn", level: 70 },
       { name: "TensorFlow", level: 60 },
     ]
