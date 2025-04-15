@@ -144,9 +144,19 @@ const projects = [
     liveLink: "https://varni1512.github.io/Sudoku-Solver/",
     githubLink: "https://github.com/Varni1512/Sudoku-Solver",
   },
+  {
+      id: 15,
+      title: "Top 11 Cricket Players Selection",
+      category: "Data Analytics",
+      image: "https://miro.medium.com/v2/resize:fit:1200/1*0y9DmDVpw3fWWmD96DEy-g.png",
+      description: "This project focuses on building a data-driven model and visualization tool to select the best 11 international cricket players using performance metrics based on the ICC T20 World Cup standards.",
+      technologies: ["Pandas","Microsoft Excel","Power BI"],
+      liveLink: "https://app.powerbi.com/links/ay7Ki3H5Zi?ctid=09bd1956-edda-4e9a-9543-7c7aa2cf4e81&pbi_source=linkShare&bookmarkGuid=eb6d497c-6977-4228-aef3-f8cb92b00892",
+      githubLink: "https://github.com/Varni1512/Top-11-Cricket-Players-Selection-using-Data-Analytics",
+    },
 ]
 
-const categories = ["All", "Web Development", "Cloned Website", "API Integration", "Chrome Extension","Algorithm-Based Project","Featured Project"]
+const categories = ["All", "Web Development","Data Analytics", "Cloned Website", "API Integration", "Chrome Extension","Algorithm-Based Project","Featured Project"]
 
 const Projects = () => {
   const [activeCategory, setActiveCategory] = useState("All")
