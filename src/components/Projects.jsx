@@ -153,6 +153,16 @@ const projects = [
       technologies: ["Pandas","Microsoft Excel","Power BI"],
       liveLink: "https://app.powerbi.com/links/ay7Ki3H5Zi?ctid=09bd1956-edda-4e9a-9543-7c7aa2cf4e81&pbi_source=linkShare&bookmarkGuid=eb6d497c-6977-4228-aef3-f8cb92b00892",
       githubLink: "https://github.com/Varni1512/Top-11-Cricket-Players-Selection-using-Data-Analytics",
+  },
+  {
+      id: 16,
+      title: "OLA Data Analyst Dashboard",
+      category: "Data Analytics",
+      image: "https://media.geeksforgeeks.org/wp-content/uploads/20250112162244587738/overall.png",
+      description: "This project focuses on building a data-driven dashboard to analyze OLA ride patterns, revenue trends, and customer insights for informed business decisions.",
+      technologies: ["Pandas","Microsoft Excel","Power BI"],
+      liveLink: "https://app.powerbi.com/links/utnKqb8MDQ?ctid=09bd1956-edda-4e9a-9543-7c7aa2cf4e81&pbi_source=linkShare",
+      githubLink: "https://github.com/Varni1512/OLA-Data-Analyst-Dashboard",
     },
 ]
 
